@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Register</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <form id="loginForm" class="form">
             <h2>Login</h2>
-            <input type="text" id="loginUsername" placeholder="Username" required>
-            <input type="password" id="loginPassword" placeholder="Password" required>
-            <button type="submit">Login</button>
+            <input type="text" id="loginUsername" class="login-username" placeholder="Username" required>
+            <input type="password" id="loginPassword" class="login-password" placeholder="Password" required>
+            <button type="submit" onclick="handleLogin()">Login</button>
         </form>
         <form id="registerForm" class="form">
             <h2>Register</h2>
-            <input type="text" id="registerUsername" placeholder="Username" required>
-            <input type="email" id="registerEmail" placeholder="Email" required>
-            <input type="password" id="registerPassword" placeholder="Password" required>
-            <button type="submit">Register</button>
+            <input type="text" id="registerUsername" class="register-username" placeholder="Username" required>
+            <input type="email" id="registerEmail" class="register-email" placeholder="Email" required>
+            <input type="password" id="registerPassword" class="register-password" placeholder="Password" required>
+            <button type="submit" onclick="handleRegister()">Register</button>
         </form>
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>

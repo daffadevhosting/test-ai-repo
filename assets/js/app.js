@@ -1,4 +1,4 @@
-window.handleLogin = function(event) {
+window.handleLogin = event => {
     event.preventDefault();
     const username = document.getElementById('loginUsername').value;
     const password = document.getElementById('loginPassword').value;
@@ -11,7 +11,7 @@ window.handleLogin = function(event) {
     }
 };
 
-window.handleRegister = function(event) {
+window.handleRegister = event => {
     event.preventDefault();
     const username = document.getElementById('registerUsername').value;
     const email = document.getElementById('registerEmail').value;

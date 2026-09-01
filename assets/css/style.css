@@ -1,44 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     background-color: #f4f4f9;
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    width: 8%;
+    margin: 2px auto;
     overflow: hidden;
-    max-width: 600px;
+    max-width: 6px;
 }
 
 .form {
     background-color: #fff;
-    padding: 20px;
+    padding: 2px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px rgba(red, green, blue, alpha);
+    margin-bottom: 2px;
 }
 
 .form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="password"] {
-    width: calc(100% - 22px);
-    padding: 10px;
+    width: calc(1% - 22px);
+    padding: 1px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    width: 1%;
+    padding: 1px;
+    background-color: #7bff;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -47,11 +47,11 @@ body {
 }
 
 .form button:hover {
-    background-color: #0056b3;
+    background-color: #56b3ff;
 }
 
 @media (max-width: 768px) {
     .container {
-        width: 90%;
+        width: 9%;
     }
 }
